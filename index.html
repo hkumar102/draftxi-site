@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DraftXI</title>
+<link rel="icon" href="/icon.png">
+<style>
+  :root {
+    --bg: #0f1115;
+    --fg: #e6e8ee;
+    --muted: #9aa3b2;
+    --accent: #7fd1ae;
+    --card: #171a21;
+    --border: #2a2f3a;
+  }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #ffffff; --fg: #15171c; --muted: #5b6271; --accent: #0d7a55; --card: #f4f5f8; --border: #d9dde6;
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #ffffff; --fg: #15171c; --muted: #5b6271; --accent: #0d7a55; --card: #f4f5f8; --border: #d9dde6;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; color: var(--accent); }
+  p, li { color: var(--fg); }
+  ul, ol { padding-left: 22px; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); margin: 0 0 24px; }
+  .note { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px; color: var(--muted); font-size: 14px; }
+  .table-wrap { overflow-x: auto; margin: 12px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+<nav style="display:flex;gap:16px;margin-bottom:24px;font-size:14px"><a href="/">DraftXI</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/support/">Support</a></nav>
+
+<img src="/icon.png" alt="" width="96" height="96" style="border-radius:22px">
+<h1>DraftXI</h1>
+<p class="meta">Season-long fantasy cricket for friend groups.</p>
+<p>Draft a 15-player squad in a live snake draft, set your XI each week and play your friends head to head across the whole tournament, through to the playoffs.</p>
+<ul>
+  <li>Live snake draft with a 60-second clock and auto-pick</li>
+  <li>Weekly head-to-head matchups, waivers and free agents</li>
+  <li>Automatic substitutes, playoffs and league chat</li>
+</ul>
+<p><strong>Points only.</strong> No real money, no purchases, no prizes, no betting.</p>
+<p>Coming soon to the App Store and Google Play.</p>
+
+</main>
+</body>
+</html>
